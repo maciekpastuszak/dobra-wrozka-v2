@@ -5,55 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="/stylesheets/app.css">
     <title>Dobra Wróżka - Niepubliczne przedszkole nr 1 w Bielsku-Białej</title>
 </head>
 <body>
     <main>
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navAltMarkup" aria-controls="navAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link dropdown-toggle active" href="#" id="aboutPreschool" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
-                    o przedszkolu
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="aboutPreschool">
-                    <li><a class="dropdown-item" href="#">nasza misja</a></li>
-                    <li><a class="dropdown-item" href="#">wyżywienie</a></li>
-                    <li><a class="dropdown-item" href="#">rozkład dnia</a></li>
-                    <li><a class="dropdown-item" href="#">zajęcia adaptacyjne</a></li>
-                  </ul>
-                  <a class="nav-link dropdown-toggle" href="#" id="preschoolOffer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    oferta
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="preschoolOffer">
-                    <li><a class="dropdown-item" href="#">zajęcia dodatkowe (wyjazdy i imprezy)</a></li>
-                    <li><a class="dropdown-item" href="#">program nauczania</a></li>
-                    <li><a class="dropdown-item" href="#">grupa żłobkowa</a></li>
-                  </ul>
-                  <a class="nav-link dropdown-toggle" href="#" id="therapyGroup" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    grupa terapeutyczna
-                  </a>
-                    <ul class="dropdown-menu" aria-labelledby="therapyGroup">
-                      <li><a class="dropdown-item" href="#">integracja</a></li>
-                      <li><a class="dropdown-item" href="#">autyzm</a></li>
-                    </ul>
-                  <a class="nav-link" href="#">cennik</a>
-                  <a class="nav-link dropdown-toggle" href="#" id="preschoolGallery" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    galeria
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="preschoolGallery">
-                    <li><a class="dropdown-item" href="#">spacer wirtualny</a></li>
-                  </ul>
-                  <a class="nav-link" href="#">kontakt</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-        <div id="frontPageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="frontPageCarousel" class="carousel slide carousel-fade position-absolute" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                 <img src="/images/carousel01-kid-smiling.jpg" class="d-block w-100" alt="dziecko w przedszkolu Dobra Wrozka usmiecha sie i bawi">
@@ -66,6 +27,53 @@
                 </div>
             </div>
         </div>
+           <nav class="navbar navbar-expand-md border border-danger position-relative">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navAltMarkup" aria-controls="navAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navAltMarkup">
+                <img src="/images/cloud-background.svg" alt="cloud background" class="img-fluid" id="cloudBackground"> 
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="#" id="aboutPreschool" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                    o przedszkolu
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="aboutPreschool">
+                    <li><a class="dropdown-item" href="#">nasza misja</a></li>
+                    <li><a class="dropdown-item" href="#">wyżywienie</a></li>
+                    <li><a class="dropdown-item" href="#">rozkład dnia</a></li>
+                    <li><a class="dropdown-item" href="#">zajęcia adaptacyjne</a></li>
+                  </ul>
+                  <span class="material-symbols-outlined">local_florist</span>
+                  <a class="nav-link" href="#" id="preschoolOffer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    oferta
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="preschoolOffer">
+                    <li><a class="dropdown-item" href="#">zajęcia dodatkowe (wyjazdy i imprezy)</a></li>
+                    <li><a class="dropdown-item" href="#">program nauczania</a></li>
+                    <li><a class="dropdown-item" href="#">grupa żłobkowa</a></li>
+                  </ul>
+                  <span class="material-symbols-outlined">local_florist</span>
+                  <a class="nav-link" href="#" id="therapyGroup" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    grupa terapeutyczna
+                  </a>
+                    <ul class="dropdown-menu" aria-labelledby="therapyGroup">
+                      <li><a class="dropdown-item" href="#">integracja</a></li>
+                      <li><a class="dropdown-item" href="#">autyzm</a></li>
+                    </ul>
+                    <span class="material-symbols-outlined">local_florist</span>
+                  <a class="nav-link" href="#">cennik</a>
+                  <span class="material-symbols-outlined">local_florist</span>
+                  <a class="nav-link" href="#" id="preschoolGallery" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    galeria
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="preschoolGallery">
+                    <li><a class="dropdown-item" href="#">spacer wirtualny</a></li>
+                  </ul>
+                  <span class="material-symbols-outlined">local_florist</span>
+                  <a class="nav-link" href="#">kontakt</a>
+                </div>
+              </div>     
+          </nav>  
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

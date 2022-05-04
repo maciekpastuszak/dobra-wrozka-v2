@@ -1,0 +1,51 @@
+.navbar {
+    position: relative;
+    top: 160px;
+}
+
+.navbar-nav {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.1rem;
+    align-items: center;
+    z-index: 3;
+}
+
+.material-symbols-outlined {
+    padding: 0 10px;
+    display: none;
+}
+
+#cloudBackground {
+    position:absolute;
+    max-width: 80vw;
+    max-height:250px;
+    bottom:43px;
+}
+
+#frontPageCarousel {
+    z-index: -1;
+}
+
+
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1110px) {
+    .material-symbols-outlined {
+        display:initial;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
