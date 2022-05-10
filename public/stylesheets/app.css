@@ -1,31 +1,57 @@
 .navbar {
-    position: relative;
-    top: 160px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position:fixed;
+    top:0;
+    height: 45px;
 }
 
 .navbar-nav {
     width: 80%;
-    display: flex;
+    display: none;
     justify-content: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     font-family: 'Architects Daughter', cursive;
     font-size: 1.1rem;
     align-items: center;
+    height: 45px;
     z-index: 3;
+    box-shadow: 2px 3px 3px rgba(255, 255, 255, 0.6);
 }
+
+.nav-link {
+    text-decoration: none;
+    color:cadetblue;
+}
+
+.navbar-toggler {
+    position: fixed;
+    top: 2px;
+    left:10px;
+} 
 
 .material-symbols-outlined {
     padding: 0 10px;
     display: none;
+    color: #f5b3dc;
 }
 
 #cloudBackground {
+    display: none;
+    position:absolute;
+    width: 40%;
+    /* max-height:290px; */
+    bottom:45px;
+}
+
+/* #wrozkaLogo {
+    display: none;
     position:absolute;
     max-width: 80vw;
-    max-height:250px;
+    max-height:180px;
     bottom:43px;
-}
+    padding-left: 30px;
+} */
 
 #frontPageCarousel {
     z-index: -1;
@@ -35,7 +61,17 @@
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+    .navbar{
+        background-color: transparent;
+        position: relative;
+        top: 15vw;
+    }
+
+    .navbar-nav, #wrozkaLogo, #cloudBackground {
+        display: flex;
+    }
+ }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { }
