@@ -1,11 +1,9 @@
-.navbar {
-    background-color: rgba(255, 255, 255, 0.6);
-    position:fixed;
-    top:0;
-    height: 45px;
-}
 
+.navbar {
+    display:flex;
+}
 .navbar-nav {
+    position: absolute;
     width: 80%;
     display: none;
     justify-content: center;
@@ -19,17 +17,6 @@
     box-shadow: 2px 3px 3px rgba(255, 255, 255, 0.6);
 }
 
-.nav-link {
-    text-decoration: none;
-    color:cadetblue;
-}
-
-.navbar-toggler {
-    position: fixed;
-    top: 2px;
-    left:10px;
-} 
-
 .material-symbols-outlined {
     padding: 0 10px;
     display: none;
@@ -37,24 +24,27 @@
 }
 
 #cloudBackground {
+    position: absolute;
+    bottom: 30px;
     display: none;
-    position:absolute;
     width: 40%;
-    /* max-height:290px; */
-    bottom:45px;
+    z-index: 3;
 }
 
-/* #wrozkaLogo {
-    display: none;
-    position:absolute;
-    max-width: 80vw;
-    max-height:180px;
-    bottom:43px;
-    padding-left: 30px;
-} */
-
 #frontPageCarousel {
-    z-index: -1;
+    position: relative;
+    top: -17px;
+}
+
+#midPageArticle {
+    height: 500px;
+
+}
+
+.footer {
+    height: 300px;
+    background-color: #4f4d4d;
+    color: white;
 }
 
 
