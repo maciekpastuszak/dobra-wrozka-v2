@@ -38,16 +38,36 @@
 
 #midPageArticle {
     height: 500px;
+    z-index: -1;
 }
 
 #wrozkaLogo {
     max-width: 30%;
 }
 
+.crayon {
+    padding: 30px;
+    transition: padding 1s;
+}
+
+.crayon:hover {
+    padding: 0;
+}
+
+#quote {
+    position: relative;
+    bottom: 50px;
+    max-width: 50%;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 4rem;
+}
+
 footer a {
     text-decoration: none;
 }
-
 
 @media (min-width: 576px) { }
 
