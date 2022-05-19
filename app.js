@@ -10,7 +10,7 @@ app.get('/', (req,res) => {
     res.render('index')
 })
 
-const port = process.env.PORT || 3002;
+const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
 })
