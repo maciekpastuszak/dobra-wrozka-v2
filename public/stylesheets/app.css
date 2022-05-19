@@ -4,9 +4,9 @@
 }
 .navbar-nav {
     position: absolute;
-    width: 80%;
+    width: 90%;
     display: none;
-    justify-content: center;
+    justify-content:space-between;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     font-family: 'Architects Daughter', cursive;
@@ -17,6 +17,16 @@
     box-shadow: 2px 3px 3px rgba(255, 255, 255, 0.6);
 }
 
+.nav-link:hover,
+.dropdown-item:hover {
+  text-shadow: 5px 5px 10px rgb(55, 180, 233);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  background-color: transparent;
+}
+
 .material-symbols-outlined {
     padding: 0 10px;
     display: none;
@@ -25,10 +35,10 @@
 
 #cloudBackground {
     position: absolute;
-    bottom: 30px;
+    top: -150px;
     display: none;
     width: 40%;
-    z-index: 2;
+    z-index: 4;
 }
 
 #frontPageCarousel {
@@ -43,6 +53,11 @@
 
 #wrozkaLogo {
     max-width: 30%;
+}
+
+#leftMenu, #rightMenu {
+    display: flex;
+    align-items: center;
 }
 
 .crayon {
@@ -76,7 +91,7 @@ footer a {
     .navbar{
         background-color: transparent;
         position: relative;
-        top: 15vw;
+        top: 8vw;
     }
 
     .navbar-nav, #cloudBackground {
