@@ -1,0 +1,22 @@
+.navbar {
+  position: absolute;
+  border: 1px solid green;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.navbar-collapse {
+  border: 1px solid blue;
+}
+
+.nav-item {
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#logoNavbar {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+}
+
