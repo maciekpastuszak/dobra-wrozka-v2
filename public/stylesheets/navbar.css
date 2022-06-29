@@ -1,18 +1,17 @@
 .navbar {
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
-  top: 80px;
   border: 1px solid green;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
-.navbar-nav{
+.navbar-nav {
   background-color: rgba(255, 255, 255, 0.9);
   height: 44px;
   border-radius: 20px;
   font-family: 'Architects Daughter', cursive;
   font-size: 1.1rem;
-  align-items: center;
 }
 
 /* .navbar-nav {
@@ -30,18 +29,71 @@
   box-shadow: 2px 3px 3px rgba(255, 255, 255, 0.6);
 } */
 
-.navbar-collapse {
-  border: 1px solid blue;
-}
 
 .nav-item {
   margin: 0 auto;
   border: 1px solid red;
+  font-size: 0.7rem;
 }
 
 #logoNavbar {
-  width: 400px;
+  display: none;
   margin: 0;
   padding: 0;
 }
 
+@media (min-width < 767px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 600px;
+  }
+
+  #logoNavbar {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) {
+.navbar {
+  top: 80px;
+  background: none;
+}
+
+  .nav-item {
+    font-size: 0.8rem;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  #logoNavbar {
+    max-width: 140px;
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+.nav-item {
+  font-size: 1rem;
+}
+
+#logoNavbar {
+  max-width: 250px;
+}
+
+}
+
+@media (min-width: 1200px) {
+  .nav-item {
+    font-size: 1.1rem;
+  }
+  
+ #logoNavbar {
+  max-width: 400px;
+}
+
+}
