@@ -15,7 +15,9 @@
 </head>
 <body>
     <main>
+      
       <%- include('./partials/navbar') %> 
+
       <div id="frontPageCarousel" class="carousel slide carousel-fade pb-3" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -30,23 +32,25 @@
         </div>
     </div> 
 
-    <figure class="text-center w-75 mx-auto mt-5">
-      <blockquote class="blockquote">
-        <p>Dzieci są nadzieją, która rozkwita wciąż na nowo, projektem, który nieustannie się urzeczywistnia, przyszłością, która pozostaje zawsze otwarta</p>
-      </blockquote>
-      <figcaption class="blockquote-footer">
-        Jan Paweł II
-      </figcaption>
-    </figure>
-
-    <div class="container mt-2" id="blockLinks">
+    <div class="container my-5" id="blockLinks">
       <div class="row justify-content-evenly">
-          <div class="col-md-3 col-sm-6 buildingBlock"><img src="/images/mid-section-item1.png" alt="" class="img-fluid p-2 m-1"></div>
-          <div class="col-md-3 col-sm-6 buildingBlock"><img src="/images/mid-section-item2.png" alt="" class="img-fluid p-2 m-1"></div>
-          <div class="col-md-3 col-sm-6 buildingBlock"><img src="/images/mid-section-item3.png" alt="" class="img-fluid p-2 m-1"></div>
-          <div class="col-md-3 col-sm-6 buildingBlock"><img src="/images/mid-section-item4.png" alt="" class="img-fluid p-2 m-1"></div>
+          <div class="col-md-3 col-sm-6 buildingBlock1"><img src="/images/mid-section-item1.png" alt="" class="img-fluid p-2 m-1"></div>
+          <div class="col-md-3 col-sm-6 buildingBlock2"><img src="/images/mid-section-item2.png" alt="" class="img-fluid p-2 m-1"></div>
+          <div class="col-md-3 col-sm-6 buildingBlock1"><img src="/images/mid-section-item3.png" alt="" class="img-fluid p-2 m-1"></div>
+          <div class="col-md-3 col-sm-6 buildingBlock2"><img src="/images/mid-section-item4.png" alt="" class="img-fluid p-2 m-1"></div>
       </div>
     </div> 
+
+    <div id="blockquote">
+      <figure class="text-center w-75 mx-auto mt-5">
+        <blockquote class="blockquote">
+          <p>Dzieci są nadzieją, która rozkwita wciąż na nowo, projektem, który nieustannie się urzeczywistnia, przyszłością, która pozostaje zawsze otwarta</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          <i>Jan Paweł II</i>
+        </figcaption>
+      </figure>
+    </div>
 
     <div>
       <img src="/images/kredki.png" alt="" class="w-100" id="kredki">
