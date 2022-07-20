@@ -64,7 +64,7 @@
 
   .navbar-nav {
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     height: 44px;
     font-size: 1.1rem;
   }
@@ -99,7 +99,7 @@
 @media (min-width: 1200px) {
 
   .navbar {
-    top: 60px;
+    top: 70px;
   }
 
   .nav-item {
