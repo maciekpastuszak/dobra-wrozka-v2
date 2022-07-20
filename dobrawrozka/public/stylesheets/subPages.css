@@ -1,8 +1,17 @@
 
+.card {
+    font-family: 'Grandstander';
+    border: none;
+    text-align: justify;
+}
 
+.card-title {
+    font-family: 'Grandstander';
+    color: orange;
+}
 
-@media (min-width < 767px) {
-
+@media (min-width < 768px) {
+    
 }
 
 @media (min-width: 768px) {
