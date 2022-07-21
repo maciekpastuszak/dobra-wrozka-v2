@@ -28,6 +28,10 @@ app.get('/o-przedszkolu/wypoczynek-i-zabawa', (req,res) => {
     res.render('o-przedszkolu/wypoczynek-i-zabawa')
 })
 
+app.get('/o-przedszkolu/kadra', (req,res) => {
+    res.render('o-przedszkolu/kadra')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
