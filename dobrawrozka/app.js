@@ -32,6 +32,11 @@ app.get('/o-przedszkolu/kadra', (req,res) => {
     res.render('o-przedszkolu/kadra')
 })
 
+
+app.get('/o-przedszkolu/adaptacja', (req,res) => {
+    res.render('o-przedszkolu/adaptacja')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
