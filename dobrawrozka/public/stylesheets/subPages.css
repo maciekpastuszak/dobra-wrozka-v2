@@ -7,7 +7,17 @@
 
 .card-title {
     font-family: 'Grandstander';
-    color: orange;
+    color: chocolate;
+    }
+    
+    .cardTop {
+        background-color: rgb(232, 232, 232);
+    }
+    
+    .divider {
+        display: flex;
+        height: 2rem;
+        background-color: white;
 }
 
 @media (min-width < 768px) {
