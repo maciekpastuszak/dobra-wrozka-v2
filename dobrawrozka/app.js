@@ -20,6 +20,10 @@ app.get('/o-przedszkolu/nasz-budynek', (req,res) => {
     res.render('o-przedszkolu/nasz-budynek')
 })
 
+app.get('/o-przedszkolu/wyzywienie', (req,res) => {
+    res.render('o-przedszkolu/wyzywienie')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
