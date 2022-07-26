@@ -37,6 +37,14 @@ app.get('/o-przedszkolu/adaptacja', (req,res) => {
     res.render('o-przedszkolu/adaptacja')
 })
 
+app.get('/oferta/program-edukacyjny', (req,res) => {
+    res.render('oferta/program-edukacyjny')
+})
+
+app.get('/oferta/rozwoj-jezykowy', (req,res) => {
+    res.render('oferta/rozwoj-jezykowy')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
