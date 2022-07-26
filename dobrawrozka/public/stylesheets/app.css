@@ -4,15 +4,17 @@
 }
 
 #blockquote {
-    background-image: url('/images/color-balls.png');
-    padding: 10px;
-}
-
+    background-image: url('/images/color-balls.jpg');
+        padding: 20px;
+        
+    }
 .blockquote {
     font-family: 'Alex Brush', cursive;
     font-size: 2.0rem;
-    text-shadow: rgb(247, 246, 244) 1px 0 10px;
-        
+    text-shadow: 5px 1px 30px black;
+        color: white;
+        padding-top: 20px;
+        display: flex;
 }
 
 .buildingBlock1 {
@@ -32,7 +34,13 @@
     transition: transform 0.5s;
 }
 
-@media (min-width < 767px) {
+#blockLinks {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+  
+
     .buildingBlock1 {
         max-width: 50px;
         margin: 5px 10px;
@@ -42,14 +50,15 @@
         max-width: 50px;
         margin: 5px 10px;
     }
-}
-
-@media (min-width: 768px) {
-
+    #blockLinks {
+        width: 70%;
+    } 
 }
 
 @media (min-width: 992px) {
-
+    #blockLinks {
+        width: 100%;
+    } 
 }
 
 @media (min-width: 1200px) {
@@ -63,6 +72,10 @@
         padding-left: 15px;
         padding-right: 15px;
         max-width: 250px;
+    }
+
+    #blockLinks {
+        width: 100%;
     }
 
 }

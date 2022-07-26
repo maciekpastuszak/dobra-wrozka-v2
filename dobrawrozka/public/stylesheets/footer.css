@@ -1,0 +1,11 @@
+footer {
+    font-family: 'Grandstander';
+}
+
+.footerCol a {
+    text-decoration: none;
+}
+
+#wrozkaLogoFooter {
+    max-width: 80px;
+}
