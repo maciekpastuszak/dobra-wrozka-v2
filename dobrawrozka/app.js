@@ -45,6 +45,10 @@ app.get('/oferta/rozwoj-jezykowy', (req,res) => {
     res.render('oferta/rozwoj-jezykowy')
 })
 
+app.get('/oferta/zajecia-dodatkowe', (req,res) => {
+    res.render('oferta/zajecia-dodatkowe')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
