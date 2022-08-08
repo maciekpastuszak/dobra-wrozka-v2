@@ -57,6 +57,10 @@ app.get('/galeria', (req,res) => {
     res.render('galeria')
 })
 
+app.get('/ksztalcenie-specjalne/kiedy-do-specjalisty', (req,res) => {
+    res.render('ksztalcenie-specjalne/kiedy-do-specjalisty')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
