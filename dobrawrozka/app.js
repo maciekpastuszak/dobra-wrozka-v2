@@ -61,6 +61,14 @@ app.get('/ksztalcenie-specjalne/kiedy-do-specjalisty', (req,res) => {
     res.render('ksztalcenie-specjalne/kiedy-do-specjalisty')
 })
 
+app.get('/ksztalcenie-specjalne/terapia-i-metody-pracy', (req,res) => {
+    res.render('ksztalcenie-specjalne/terapia-i-metody-pracy')
+})
+
+app.get('/ksztalcenie-specjalne/terapia-logopedyczna', (req,res) => {
+    res.render('ksztalcenie-specjalne/terapia-logopedyczna')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
