@@ -73,6 +73,10 @@ app.get('/cennik', (req,res) => {
     res.render('cennik')
 })
 
+app.get('/kontakt', (req,res) => {
+    res.render('kontakt')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
