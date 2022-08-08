@@ -69,6 +69,10 @@ app.get('/ksztalcenie-specjalne/terapia-logopedyczna', (req,res) => {
     res.render('ksztalcenie-specjalne/terapia-logopedyczna')
 })
 
+app.get('/cennik', (req,res) => {
+    res.render('cennik')
+})
+
 const port = 8080 || 3002;
 app.listen(port, () => {
     console.log(`Port ${port} otwarty`)
