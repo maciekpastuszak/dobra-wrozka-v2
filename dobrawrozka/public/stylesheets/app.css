@@ -4,15 +4,15 @@
 }
 
 #blockquote {
-    background-image: url('/images/color-balls.jpg');
+
         padding: 20px;
         
     }
 .blockquote {
     font-family: 'Alex Brush', cursive;
     font-size: 2.0rem;
-    text-shadow: 5px 1px 30px black;
-        color: white;
+    text-shadow: 5px 1px 30px rgb(255, 208, 208);
+        color: rgb(4, 1, 65);
         padding-top: 20px;
         display: flex;
 }
@@ -41,7 +41,7 @@
 @media (min-width: 768px) {
   
 
-    .buildingBlock1 {
+    /* .buildingBlock1 {
         max-width: 50px;
         margin: 5px 10px;
     }
@@ -49,7 +49,7 @@
     .buildingBlock2 {
         max-width: 50px;
         margin: 5px 10px;
-    }
+    } */
     #blockLinks {
         width: 70%;
     } 
