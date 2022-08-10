@@ -8,23 +8,36 @@
 .card-title {
     font-family: 'Grandstander';
     color: chocolate;
-    }
-    
-    .cardTop {
-        background-color: rgb(232, 232, 232);
-    }
-    
-    .divider {
-        display: flex;
-        height: 2rem;
-        background-color: white;
 }
 
-@media (min-width < 768px) {
-
+.reveal1 {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    width: 100%;
 }
 
-@media (min-width: 768px) {
+.reveal2 {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal1.active, .reveal2.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+    
+.divider {
+    display: flex;
+    height: 2rem;
+    background-color: white;
+}
+
+
+/* @media (min-width: 768px) {
     #legoBg {
         max-height: 120px;
     }
@@ -40,4 +53,4 @@
     #legoBg {
         max-height: 200px;
     }
-}
+} */
